@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  padding: 20px;
+}
+
+ h1 {
+  color: black;
+ }
+
+ p {
+  color: black;
+  border: 10px;
+  width: 300px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+
+ }
+
+ .testingLinks a{
+  text-decoration: none;
+  color: rgb(42, 118, 143);
+ }

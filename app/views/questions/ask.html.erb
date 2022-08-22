@@ -1,0 +1,13 @@
+<h3> Ask your coach anything </h3>
+
+<%# <form action="/answer" method="get">
+  <input type="text" name="member" placeholder="Who are you looking for?">
+  <input type="submit">
+</form> %>
+
+<%# Action is what follows url (the HTTP verb), name is what follows the URL and is the key? %>
+
+<form action="/answer" data-turbo="false">
+  <input type="text" name="question" size="50">
+  <input type="submit" value="Ask!" class="btn btn-primary">
+</form>
